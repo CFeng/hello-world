@@ -10,3 +10,5 @@ It now includes steps for GitHub.
 Hello, new line number 2.
 
 Change 1.
+
+Change 2.
