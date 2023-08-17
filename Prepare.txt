@@ -9,7 +9,6 @@ Resume introduction
 
 Huawei
 	Hair
-		Import
 		Simulation
 			1. Apply gravity
 			2. Apply root move
@@ -32,6 +31,10 @@ Huawei
 			MSAA and Lighting (Culling, Marschner)
 		Optimization:
 			Culling, LUT
+
+		Strand count: 20 (guide) + 40 (follow) thousands
+		Vertex count: ~2 million
+		vertex per strand: 32
 
 Ubisoft
 	Reflection
@@ -59,4 +62,10 @@ Words:
 capsules
 最小二乘解 Least Squares Solution
 四元数 quaternion
-约束 Constraints 
+约束 Constraints
+统计学 statistics
+数学 mathematics
+各项异性 anisotropy
+各项同性 isotropy
+指数计算 exponent/Exponential
+精度 precision
