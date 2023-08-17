@@ -1,0 +1,62 @@
+CodePad!!
+
+Clothing
+	Simulation/Collision
+	Rendering	
+
+
+Resume introduction
+
+Huawei
+	Hair
+		Import
+		Simulation
+			1. Apply gravity
+			2. Apply root move
+			3. Apply shape constraints
+			4. Other force like wind
+			5. Apply length constraints
+			6. Update follow hairs
+		Collision
+			Use SDF to move hair vertex out of collision mesh
+		Rendering
+			Rendering
+			Lighting
+
+		Use shared memory to access neighbour vecter on a strand
+		How shadow works?
+		How did I debug Marschner equation
+		How talk with QA/manager about requirment?
+			Compare to UE5: Lighing/ Motion blur
+		What did I do:
+			MSAA and Lighting (Culling, Marschner)
+		Optimization:
+			Culling, LUT
+
+Ubisoft
+	Reflection
+		SSLR
+			Cone Tracing
+			HiZ Tracing
+		DXR
+		
+		
+Mechine Learning
+	Neural networks
+
+Code:
+	Lookat Matrix building
+	Cross dot
+	barycenter calc
+	point to triange distance
+	
+Words:
+数值解（Numerical Solution）
+解析解（Analytical Solution）
+最大似然估计(Maximum Likelihood estimation)
+分母 denominator
+分子 numerator
+capsules
+最小二乘解 Least Squares Solution
+四元数 quaternion
+约束 Constraints 
