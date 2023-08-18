@@ -21,6 +21,7 @@ Huawei
 		Rendering
 			Rendering
 			Lighting
+------------Multi Scattering
 
 		Use shared memory to access neighbour vecter on a strand
 		How shadow works?
@@ -53,14 +54,28 @@ Code:
 	barycenter calc
 	point to triange distance
 	
+	---------------------------------
+	球面高斯函数
+	struct SG
+	{
+	  float3 Amplitude;
+	  float3 Axis;
+	  float Sharpness;
+	}
+
+	float3 EvaluateSG(in SG sg, in float3 dir)
+	{
+	  float cosAngle = dot(dir, sg.Axis);
+	  return sg.Amplitude * exp(sg.Sharpness * (cosAngle - 1.0f));
+	}
+	---------------------------------
+	
 Words:
 数值解（Numerical Solution）
 解析解（Analytical Solution）
-最大似然估计(Maximum Likelihood estimation)
 分母 denominator
 分子 numerator
 capsules
-最小二乘解 Least Squares Solution
 四元数 quaternion
 约束 Constraints
 统计学 statistics
@@ -69,3 +84,7 @@ capsules
 各项同性 isotropy
 指数计算 exponent/Exponential
 精度 precision
+曲线辐射照度 curve irradiance
+卷积神经网络 (Convolutional Neural Network, CNN)
+反向传播 (Backpropagation)
+梯度下降 Gradient Descent
