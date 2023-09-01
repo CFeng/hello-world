@@ -1,3 +1,5 @@
+System design white board?
+
 https://www.metacareers.com/facebook-life
 
 1. Introduce Yourself
@@ -25,3 +27,6 @@ Tell me about a time you solved a team conflict.
 9. Describe a time you completed a task whilst under pressure!
 
 Tell me about a product you led from idea to launch
+
+Tell me a time you made your team's processes, software or system simpler.
+	Porting OC to facebook
