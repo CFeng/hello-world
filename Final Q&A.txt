@@ -16,6 +16,10 @@ What's the team size? Artist, designer and programmers?
 
 My role in the team. Expectation of me.
 
+How long have you been on the team?
+
+How long have the other senior engineers worked on the team?
+
 
 Location preferance?
 
